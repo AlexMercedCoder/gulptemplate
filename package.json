@@ -1,0 +1,21 @@
+{
+  "name": "gulpclitemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "default": "gulp",
+    "brick": "gulp brick",
+    "tiger": "gulp tiger --gulpfile gulp/moregulp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "files": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
